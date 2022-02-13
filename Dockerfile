@@ -5,7 +5,9 @@ RUN conda install --yes --quiet --channel conda-forge \
     jupyter \
     jupyterlab \
     r-base=4.1.1 \
-    r-irkernel
+    r-irkernel \
+    r-tidyverse=1.2.1 
+    # ^ install tidyverse v1.2.1
 
 # Install JupyterLab Git Extension
 RUN pip install jupyterlab-git
