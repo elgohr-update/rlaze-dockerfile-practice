@@ -1,4 +1,4 @@
-# >>> trivial change to test action
+# >> trivial change to test action
 
 FROM ubcdsci/jupyterlab
 #FROM continuumio/miniconda3
