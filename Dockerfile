@@ -1,7 +1,9 @@
 # >> trivial change to test action
 
 FROM ubcdsci/jupyterlab
-#FROM continuumio/miniconda3
+
+
+FROM continuumio/miniconda3
 
 # Install Jupyter, JupterLab, R & the IRkernel
 RUN conda install --yes --quiet --channel conda-forge \
